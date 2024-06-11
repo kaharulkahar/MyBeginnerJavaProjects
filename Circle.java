@@ -22,6 +22,7 @@ public class Circle {
 	
 	//main 
 	public static void main (String [] args) {
+		//scanner
 		Scanner sc = new Scanner(System.in);
 		
 		int y, z, area;
