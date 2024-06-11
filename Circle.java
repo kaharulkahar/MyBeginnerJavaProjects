@@ -27,14 +27,17 @@ public class Circle {
 		int y, z, area;
 		String y1;
 		
+		//GUI
 		y1 = JOptionPane.showInputDialog ("Please set radius.");
 		y = Integer.parseInt (y1);
 		
+		//Object
 		Circle c1 = new Circle ();	
 		c1.setRadius(y);
 		z = c1.getRadius();
 		area = (int) c1.computeArea();
 		
+		//Output
 		System.out.println("The radius is "+ z);
 		JOptionPane.showMessageDialog (null,"The radius is "+ z);
 		
